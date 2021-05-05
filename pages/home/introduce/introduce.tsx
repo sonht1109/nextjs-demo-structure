@@ -1,9 +1,10 @@
 import React from 'react'
+import SIntroduce from './style'
 
 export default function Introduce() {
   return (
-    <div>
+    <SIntroduce>
       Introduce
-    </div>
+    </SIntroduce>
   )
 }
