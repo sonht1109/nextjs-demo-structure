@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import SLink from "../../src/components/Link";
+import SLink from "../../components/Link";
 
 export default function Home() {
   return (
