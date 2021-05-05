@@ -42,13 +42,13 @@ class MyDocument extends Document {
           <link
             rel="preload"
             href="/fonts/K2D-Regular.ttf"
-            type="font/ttf"
+            crossOrigin=""
             as="font"
           />
           <link
             rel="preload"
             href="/fonts/K2D-Bold.ttf"
-            type="font/ttf"
+            crossOrigin=""
             as="font"
           />
         </Head>
