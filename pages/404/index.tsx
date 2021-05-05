@@ -1,12 +1,12 @@
 import React from 'react'
 import Link from 'next/link'
-import SLink from '../../components/Link'
+import SLink from '../../src/components/Link'
 import SNotFound from './style'
 
 export default function NotFound() {
   return (
     <SNotFound>
-      <h2>Oops</h2>
+      <img src="/images/vercel.svg" alt="" />
       <Link href="/">
         <SLink>Go back home</SLink>
       </Link>

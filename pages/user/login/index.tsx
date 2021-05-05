@@ -1,12 +1,12 @@
 import React from 'react'
 import Link from 'next/link'
-import SLink from '../../../components/Link'
+import SLink from '../../../src/components/Link'
 import SLogin from './style'
 
 export default function UserLogin() {
   return (
     <SLogin>
-      UserLogin <br></br>
+      User Login <br></br>
       <Link href="signup">
         <SLink>Go to signup</SLink>
       </Link><br></br>
