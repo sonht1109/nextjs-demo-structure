@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import SLink from '../../../src/components/Link'
-import SSignup from './style'
+import SSignup from './store/style'
 
 export default function UserSignup() {
   return (

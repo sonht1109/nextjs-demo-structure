@@ -1,4 +1,4 @@
-A demo boilerplate [Nextjs] + [Typescript] with [Redux], [GraphQL], [Apollo] and [styled-components]
+A demo boilerplate [Nextjs + Typescript](https://nextjs.org/learn/excel/typescript) with [Redux](https://redux.js.org/), [GraphQL + Apollo](https://www.apollographql.com/docs/react/get-started/) and [styled-components](https://styled-components.com/)
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).

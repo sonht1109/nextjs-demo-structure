@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import SLink from '../../../src/components/Link'
-import SLogin from './style'
+import SLogin from './store/style'
 
 export default function UserLogin() {
   return (

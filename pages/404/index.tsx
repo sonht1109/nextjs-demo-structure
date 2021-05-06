@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import SLink from '../../src/components/Link'
-import SNotFound from './style'
+import SNotFound from './store/style'
 
 export default function NotFound() {
   return (

@@ -1,4 +1,5 @@
 module.exports = {
+
   async redirects() {
     return [
       {
@@ -6,6 +7,14 @@ module.exports = {
         destination: '/home',
         permanent: true,
       },
+      {
+        source: '/:path*/store/:path*',
+        destination: '/home',
+        permanent: true
+      }
     ]
   },
+  env: {
+    customKey: 'my-value-with-custom-env-key'
+  }
 }
