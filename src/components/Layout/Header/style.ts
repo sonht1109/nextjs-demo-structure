@@ -8,9 +8,11 @@ const SHeader = styled.div`
   background-color: #e3e3e3;
   padding: 0 10px;
   .menu {
-    span {
+    a {
       display: inline-block;
       margin: 0 5px;
+      text-decoration: none;
+      color: black;
     }
   }
   .logo {
