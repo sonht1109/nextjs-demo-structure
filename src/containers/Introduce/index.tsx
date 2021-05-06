@@ -4,7 +4,7 @@ import SIntroduce from './style'
 export default function Introduce() {
   return (
     <SIntroduce>
-      Introduce
+      <h1>Đây là trang giới thiệu</h1>
     </SIntroduce>
   )
 }

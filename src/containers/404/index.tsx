@@ -7,7 +7,7 @@ export default function NotFound() {
   return (
     <SNotFound>
       <img src="/images/vercel.svg" alt="" />
-      <Link href="/home">
+      <Link href="/">
         <SLink>Go back home</SLink>
       </Link>
     </SNotFound>

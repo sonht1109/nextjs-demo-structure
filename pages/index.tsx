@@ -1,4 +1,4 @@
-import Home from "../../src/containers/home";
+import Home from "../src/containers/Home";
 
 const HomePage = () => <Home />
 export default HomePage

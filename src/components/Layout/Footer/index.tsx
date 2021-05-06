@@ -4,7 +4,7 @@ import styled from 'styled-components'
 export default function Footer() {
   return (
     <SFooter>
-      <p>No Copyright @ 05/05/2021</p>
+      <p>No Copyright @jobbooking</p>
     </SFooter>
   )
 }

@@ -8,11 +8,16 @@ const SHeader = styled.div`
   background-color: #e3e3e3;
   padding: 0 10px;
   .menu {
-    a {
-      display: inline-block;
+    display: flex;
+    li {
+      cursor: pointer;
+      list-style: none;
       margin: 0 5px;
-      text-decoration: none;
-      color: black;
+      a {
+        display: inline-block;
+        text-decoration: none;
+        color: black;
+      }
     }
   }
   .logo {
@@ -20,6 +25,26 @@ const SHeader = styled.div`
       width: 110px;
       height: auto;
     }
+  }
+`;
+
+export const Dropdown = styled.div`
+  position: relative;
+  .dropdown_menu {
+    display: none;
+    position: absolute;
+    top: 150%;
+    right: 0;
+    width: max-content;
+    background-color: white;
+    border: 1px solid;
+    padding: 5px;
+    .dropdown_item{
+      padding: 5px;
+    }
+  }
+  .show {
+    display: block;
   }
 `;
 

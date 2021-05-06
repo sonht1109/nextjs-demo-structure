@@ -6,10 +6,12 @@ import SLink from '../../../components/Link'
 export default function ExpertSignup() {
   return (
     <SSignup>
-      Expert Signup <br></br>
-      <Link href="login">
-        <SLink>Back to login</SLink>
-      </Link>
+      <h1>Đây là trang đăng ký chuyên gia</h1>
+      <h2>
+        <Link href="/expert/signup/authentication">
+          <SLink>Xác thực</SLink>
+        </Link>
+      </h2>
     </SSignup>
   )
 }

@@ -7,6 +7,10 @@ const GlobalStyle = createGlobalStyle`
     font-family: ${theme.fonts["K2D-Regular"]};
     user-select: none;
   }
+
+  h1, h2{
+    text-align: center;
+  }
 `;
 
 export default GlobalStyle;
